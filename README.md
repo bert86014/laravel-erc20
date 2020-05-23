@@ -1,12 +1,12 @@
-# laravel-baidu-aip
+# laravel-erc20
 
-<p align="center">⛵<code>laravel-baidu-aip</code> is a bert86014/baidu-aip laravel package.</p>
+<p align="center">⛵<code>laravel-erc20</code> is a bert86014/erc20 laravel package.</p>
 
 
 
 Requirements
 ------------
- - PHP >= 7.0.0
+ - PHP >= 7.1.0
  - Laravel >= 5.0.0
  - Fileinfo PHP Extension
 
@@ -18,21 +18,20 @@ Installation
 First, install laravel 5.*, and make sure that the database connection settings are correct.
 
 ```
-composer require bert86014/laravel-baidu-aip
+composer require bert86014/laravel-erc20
 ```
 
 Then run these commands to publish assets and config：
 
 ```
-php artisan vendor:publish --provider="bert86014\BaiduAip\BaiduAipServiceProvider"
+php artisan vendor:publish --provider="Bert86014\Erc20Rpc\Erc20RpcServiceProvider"
 ```
-After run command you can find config file in `config/baiduaip.php`, in this file you can change the install directory,db connection or table names.
+After run command you can find config file in `config/ethereum.php`, in this file you can change the install directory,db connection or table names.
 
 
 Configurations
 ------------
-The file `config/baiduaip.php` contains an array of configurations, you can find the default configurations in there.
+The file `config/ethereum.php` contains an array of configurations, you can find the default configurations in there.
 
-You can find appid/appkey/secretKey, from https://console.bce.baidu.com/ai/ 
 
 
