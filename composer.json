@@ -1,0 +1,28 @@
+{
+  "name": "bert86014/laravel-erc20",
+  "type": "library",
+  "description": "erc20 for laravel",
+  "authors": [
+    {
+      "name": "bert86014",
+      "email": "bert86014@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "furqansiddiqui/erc20-php": "^0.1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bert86014\\Erc20Rpc\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bert86014\\Erc20Rpc\\Erc20RpcServiceProvider"
+      ]
+    }
+  }
+}
