@@ -1,6 +1,6 @@
 <?php
 
-namespace Bert86014\Erc20Rpc\Facades;
+namespace Bert86014\LaravelErc20\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

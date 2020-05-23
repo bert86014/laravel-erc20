@@ -24,7 +24,7 @@ composer require bert86014/laravel-erc20
 Then run these commands to publish assets and config：
 
 ```
-php artisan vendor:publish --provider="Bert86014\Erc20Rpc\Erc20RpcServiceProvider"
+php artisan vendor:publish --provider="Bert86014\LaravelErc20\Erc20RpcServiceProvider"
 ```
 After run command you can find config file in `config/ethereum.php`, in this file you can change the install directory,db connection or table names.
 
