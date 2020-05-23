@@ -1,6 +1,6 @@
 <?php
 
-namespace bert86014\Erc20Rpc\Facades;
+namespace Bert86014\Erc20Rpc\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
