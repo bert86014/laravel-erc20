@@ -4,7 +4,6 @@ namespace Bert86014\LaravelErc20;
 
 use Illuminate\Support\ServiceProvider;
 use EthereumRPC\EthereumRPC;
-use ERC20\ERC20;
 
 class Erc20RpcServiceProvider extends ServiceProvider
 {
@@ -40,7 +39,7 @@ class Erc20RpcServiceProvider extends ServiceProvider
         $this->setupConfig();
         $this->app->singleton('Erc20Rpc', function () {
             $eth = new EthereumRPC(config('ethereum.host'), config('ethereum.port'));
-            return new ERC20($eth);
+            return new Ethereum($eth);
         });
     }
 }
