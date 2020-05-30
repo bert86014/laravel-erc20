@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "furqansiddiqui/erc20-php": "^0.1.4"
+    "bert86014/erc20-php": "^0.1.5"
   },
   "autoload": {
     "psr-4": {
